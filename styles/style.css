@@ -1,0 +1,126 @@
+.page {
+    min-width: 1100px;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+
+.header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    background-color: #f2f2f2;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+.description{
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    margin-right: 0;
+    margin-top: 80px;
+  }
+
+
+.logo{
+    width: 228px;
+    height: 32px;
+    z-index: 2;
+}
+
+.header__logo{
+    position: absolute;
+    top: 30px;
+    left: 64px;
+}
+
+.header__title{
+    width: 730px;
+    margin-left: 64px;
+    line-height: 96px;
+    font-size: 102px;
+    font-weight: 600;
+}
+
+.header__subtitle{
+    position: absolute;
+    bottom: 30px;
+    left: 64px;
+    width: 388px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+.header__main-illustration{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 765px;
+    height: 608px;
+    z-index: 1;
+}
+
+
+.header__square-pic{
+    min-height: 600px;
+    max-height: 756px;
+    width: 568px;
+    height: 568px;
+    position: absolute;
+    top: 64px;
+    right: 0px;
+    background-color: #2f80ed;
+}
+
+.description__two-columns{
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    left: 10%;
+    right: 10%;
+    min-height: 300px;
+}
+
+.description__two-columns__brief{
+    width: 175px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    color: #2f80ed;
+}
+
+.description__two-columns__main-text{
+    min-width: 784px;
+    flex-basis: 80%;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.description__two-columns__main-text__paragraph{
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.description__two-columns__main-text__paragraph-low{
+    margin-bottom: 0;
+}
+
+.description__two-columns__main-text__paragraph__span-accent{
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: 600;
+}
